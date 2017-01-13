@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1150C9D1E26333D00F15C05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1150C9C1E26333D00F15C05 /* main.m */; };
+		D1150CA01E26333D00F15C05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1150C9F1E26333D00F15C05 /* AppDelegate.m */; };
+		D1150CA31E26333D00F15C05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1150CA21E26333D00F15C05 /* ViewController.m */; };
+		D1150CA61E26333D00F15C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1150CA41E26333D00F15C05 /* Main.storyboard */; };
+		D1150CA81E26333D00F15C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1150CA71E26333D00F15C05 /* Assets.xcassets */; };
+		D1150CAB1E26333D00F15C05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1150CA91E26333D00F15C05 /* LaunchScreen.storyboard */; };
+		D1150CB61E26333D00F15C05 /* LFPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1150CB51E26333D00F15C05 /* LFPickerViewTests.m */; };
+		D1150CC11E26333D00F15C05 /* LFPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1150CC01E26333D00F15C05 /* LFPickerViewUITests.m */; };
+		D1150CD81E2649C300F15C05 /* LFPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1150CD71E2649C300F15C05 /* LFPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1150CB21E26333D00F15C05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1150C901E26333D00F15C05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1150C971E26333D00F15C05;
+			remoteInfo = LFPickerView;
+		};
+		D1150CBD1E26333D00F15C05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1150C901E26333D00F15C05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1150C971E26333D00F15C05;
+			remoteInfo = LFPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1150C981E26333D00F15C05 /* LFPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1150C9C1E26333D00F15C05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1150C9E1E26333D00F15C05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1150C9F1E26333D00F15C05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1150CA11E26333D00F15C05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1150CA21E26333D00F15C05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1150CA51E26333D00F15C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1150CA71E26333D00F15C05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1150CAA1E26333D00F15C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1150CAC1E26333D00F15C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1150CB11E26333D00F15C05 /* LFPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1150CB51E26333D00F15C05 /* LFPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFPickerViewTests.m; sourceTree = "<group>"; };
+		D1150CB71E26333D00F15C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1150CBC1E26333D00F15C05 /* LFPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1150CC01E26333D00F15C05 /* LFPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFPickerViewUITests.m; sourceTree = "<group>"; };
+		D1150CC21E26333D00F15C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1150CD61E2649C300F15C05 /* LFPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFPickerView.h; sourceTree = "<group>"; };
+		D1150CD71E2649C300F15C05 /* LFPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1150C951E26333D00F15C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1150CAE1E26333D00F15C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1150CB91E26333D00F15C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1150C8F1E26333D00F15C05 = {
+			isa = PBXGroup;
+			children = (
+				D1150C9A1E26333D00F15C05 /* LFPickerView */,
+				D1150CB41E26333D00F15C05 /* LFPickerViewTests */,
+				D1150CBF1E26333D00F15C05 /* LFPickerViewUITests */,
+				D1150C991E26333D00F15C05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1150C991E26333D00F15C05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1150C981E26333D00F15C05 /* LFPickerView.app */,
+				D1150CB11E26333D00F15C05 /* LFPickerViewTests.xctest */,
+				D1150CBC1E26333D00F15C05 /* LFPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1150C9A1E26333D00F15C05 /* LFPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				D1150CCE1E2635A500F15C05 /* LFPickerView */,
+				D1150C9E1E26333D00F15C05 /* AppDelegate.h */,
+				D1150C9F1E26333D00F15C05 /* AppDelegate.m */,
+				D1150CA11E26333D00F15C05 /* ViewController.h */,
+				D1150CA21E26333D00F15C05 /* ViewController.m */,
+				D1150CA41E26333D00F15C05 /* Main.storyboard */,
+				D1150CA71E26333D00F15C05 /* Assets.xcassets */,
+				D1150CA91E26333D00F15C05 /* LaunchScreen.storyboard */,
+				D1150CAC1E26333D00F15C05 /* Info.plist */,
+				D1150C9B1E26333D00F15C05 /* Supporting Files */,
+			);
+			path = LFPickerView;
+			sourceTree = "<group>";
+		};
+		D1150C9B1E26333D00F15C05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1150C9C1E26333D00F15C05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1150CB41E26333D00F15C05 /* LFPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1150CB51E26333D00F15C05 /* LFPickerViewTests.m */,
+				D1150CB71E26333D00F15C05 /* Info.plist */,
+			);
+			path = LFPickerViewTests;
+			sourceTree = "<group>";
+		};
+		D1150CBF1E26333D00F15C05 /* LFPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1150CC01E26333D00F15C05 /* LFPickerViewUITests.m */,
+				D1150CC21E26333D00F15C05 /* Info.plist */,
+			);
+			path = LFPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		D1150CCE1E2635A500F15C05 /* LFPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				D1150CD61E2649C300F15C05 /* LFPickerView.h */,
+				D1150CD71E2649C300F15C05 /* LFPickerView.m */,
+			);
+			path = LFPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1150C971E26333D00F15C05 /* LFPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1150CC51E26333D00F15C05 /* Build configuration list for PBXNativeTarget "LFPickerView" */;
+			buildPhases = (
+				D1150C941E26333D00F15C05 /* Sources */,
+				D1150C951E26333D00F15C05 /* Frameworks */,
+				D1150C961E26333D00F15C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFPickerView;
+			productName = LFPickerView;
+			productReference = D1150C981E26333D00F15C05 /* LFPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1150CB01E26333D00F15C05 /* LFPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1150CC81E26333D00F15C05 /* Build configuration list for PBXNativeTarget "LFPickerViewTests" */;
+			buildPhases = (
+				D1150CAD1E26333D00F15C05 /* Sources */,
+				D1150CAE1E26333D00F15C05 /* Frameworks */,
+				D1150CAF1E26333D00F15C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1150CB31E26333D00F15C05 /* PBXTargetDependency */,
+			);
+			name = LFPickerViewTests;
+			productName = LFPickerViewTests;
+			productReference = D1150CB11E26333D00F15C05 /* LFPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1150CBB1E26333D00F15C05 /* LFPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1150CCB1E26333D00F15C05 /* Build configuration list for PBXNativeTarget "LFPickerViewUITests" */;
+			buildPhases = (
+				D1150CB81E26333D00F15C05 /* Sources */,
+				D1150CB91E26333D00F15C05 /* Frameworks */,
+				D1150CBA1E26333D00F15C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1150CBE1E26333D00F15C05 /* PBXTargetDependency */,
+			);
+			name = LFPickerViewUITests;
+			productName = LFPickerViewUITests;
+			productReference = D1150CBC1E26333D00F15C05 /* LFPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1150C901E26333D00F15C05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "张林峰";
+				TargetAttributes = {
+					D1150C971E26333D00F15C05 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D1150CB01E26333D00F15C05 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1150C971E26333D00F15C05;
+					};
+					D1150CBB1E26333D00F15C05 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1150C971E26333D00F15C05;
+					};
+				};
+			};
+			buildConfigurationList = D1150C931E26333D00F15C05 /* Build configuration list for PBXProject "LFPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1150C8F1E26333D00F15C05;
+			productRefGroup = D1150C991E26333D00F15C05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1150C971E26333D00F15C05 /* LFPickerView */,
+				D1150CB01E26333D00F15C05 /* LFPickerViewTests */,
+				D1150CBB1E26333D00F15C05 /* LFPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1150C961E26333D00F15C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1150CAB1E26333D00F15C05 /* LaunchScreen.storyboard in Resources */,
+				D1150CA81E26333D00F15C05 /* Assets.xcassets in Resources */,
+				D1150CA61E26333D00F15C05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1150CAF1E26333D00F15C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1150CBA1E26333D00F15C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1150C941E26333D00F15C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1150CD81E2649C300F15C05 /* LFPickerView.m in Sources */,
+				D1150CA31E26333D00F15C05 /* ViewController.m in Sources */,
+				D1150CA01E26333D00F15C05 /* AppDelegate.m in Sources */,
+				D1150C9D1E26333D00F15C05 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1150CAD1E26333D00F15C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1150CB61E26333D00F15C05 /* LFPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1150CB81E26333D00F15C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1150CC11E26333D00F15C05 /* LFPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1150CB31E26333D00F15C05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1150C971E26333D00F15C05 /* LFPickerView */;
+			targetProxy = D1150CB21E26333D00F15C05 /* PBXContainerItemProxy */;
+		};
+		D1150CBE1E26333D00F15C05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1150C971E26333D00F15C05 /* LFPickerView */;
+			targetProxy = D1150CBD1E26333D00F15C05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1150CA41E26333D00F15C05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1150CA51E26333D00F15C05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1150CA91E26333D00F15C05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1150CAA1E26333D00F15C05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1150CC31E26333D00F15C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1150CC41E26333D00F15C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1150CC61E26333D00F15C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LFPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1150CC71E26333D00F15C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LFPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D1150CC91E26333D00F15C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LFPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFPickerView.app/LFPickerView";
+			};
+			name = Debug;
+		};
+		D1150CCA1E26333D00F15C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LFPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFPickerView.app/LFPickerView";
+			};
+			name = Release;
+		};
+		D1150CCC1E26333D00F15C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LFPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LFPickerView;
+			};
+			name = Debug;
+		};
+		D1150CCD1E26333D00F15C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LFPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LFPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1150C931E26333D00F15C05 /* Build configuration list for PBXProject "LFPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1150CC31E26333D00F15C05 /* Debug */,
+				D1150CC41E26333D00F15C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1150CC51E26333D00F15C05 /* Build configuration list for PBXNativeTarget "LFPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1150CC61E26333D00F15C05 /* Debug */,
+				D1150CC71E26333D00F15C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1150CC81E26333D00F15C05 /* Build configuration list for PBXNativeTarget "LFPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1150CC91E26333D00F15C05 /* Debug */,
+				D1150CCA1E26333D00F15C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1150CCB1E26333D00F15C05 /* Build configuration list for PBXNativeTarget "LFPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1150CCC1E26333D00F15C05 /* Debug */,
+				D1150CCD1E26333D00F15C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1150C901E26333D00F15C05 /* Project object */;
+}

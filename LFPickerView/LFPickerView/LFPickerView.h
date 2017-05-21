@@ -21,8 +21,8 @@
 @property (strong, nonatomic) UIDatePicker *datePicker;
 @property (strong, nonatomic) UIButton *btnLeft;
 @property (strong, nonatomic) UIButton *btnRight;
-@property (nonatomic, strong) UITextField *receiverField;//接收数据的TextField
-@property (strong, nonatomic) NSString *strAppending;//有多列时的连接符
+@property (nonatomic, strong) UITextField *receiverField;////接收数据的TextField（可不设置，如果使用者连回调都懒得处理了，设置他自动帮你处理receiverField的数据）
+@property (strong, nonatomic) NSString *strAppending;//有多列时receiverField显示文案的连接符，比如显示男-25岁，则strAppending是“-”
 
 /**一般picker正在滚动的回调(数组中存放选中的行，多列则有多个值,strResult是拼接好的结果)*/
 @property (copy, nonatomic) void(^valueChanged)(LFPickerView * picker, NSArray *values, NSString *strResult);

@@ -220,6 +220,7 @@
 				TargetAttributes = {
 					D1150C971E26333D00F15C05 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D975HMHLA6;
 						ProvisioningStyle = Automatic;
 					};
 					D1150CB01E26333D00F15C05 = {
@@ -438,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D975HMHLA6;
 				INFOPLIST_FILE = LFPickerView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -450,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D975HMHLA6;
 				INFOPLIST_FILE = LFPickerView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -523,6 +526,7 @@
 				D1150CC71E26333D00F15C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1150CC81E26333D00F15C05 /* Build configuration list for PBXNativeTarget "LFPickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +535,7 @@
 				D1150CCA1E26333D00F15C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1150CCB1E26333D00F15C05 /* Build configuration list for PBXNativeTarget "LFPickerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +544,7 @@
 				D1150CCD1E26333D00F15C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -23,6 +23,7 @@
     
     //搭配TextField使用的单列picker
     LFPickerView *picker = [[LFPickerView alloc] initWithComponents:1 dataSource:@[@"保密", @"男", @"女"] height:216];
+    [picker.pickerView selectRow:0 inComponent:0 animated:YES];
     picker.receiverField = self.tfInput;//搭配TextField使用可自动填充数据，不用监听回调
     picker.cancelBlock = ^{
         self.tfInput.text = @"保密";
@@ -50,6 +51,8 @@
     //多列的数据源是大数组套多个小数组
     NSArray *array = @[@[@"上衣", @"裤子"], @[@"红色", @"蓝色", @"绿色"]];
     LFPickerView *picker = [[LFPickerView alloc] initWithComponents:2 dataSource:array height:216];
+    [picker.pickerView selectRow:1 inComponent:0 animated:YES];
+    [picker.pickerView selectRow:1 inComponent:1 animated:YES];
     picker.strAppending = @"-";//连接符
     picker.valueComplete = ^(LFPickerView * picker, NSArray *value, NSString *strResult) {
         [button setTitle:strResult forState:UIControlStateNormal];
